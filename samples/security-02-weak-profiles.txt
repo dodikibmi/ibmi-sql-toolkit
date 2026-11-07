@@ -1,0 +1,6 @@
+-- security/02-weak-profiles.sql  (PUB400, IBM i 7.5, user without special authorities, MYLIB = DODIKIBMI2)
+
+user_name  status    user_default_password  last_signon  password_changed  expiry_days  no_password_indicator  finding
+---------  --------  ---------------------  -----------  ----------------  -----------  ---------------------  -------
+DODIKIBMI  *ENABLED                         2026-11-07   2026-09-26        0            NO                     ok
+(1 rows)

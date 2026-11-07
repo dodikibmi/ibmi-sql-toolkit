@@ -1,0 +1,5 @@
+-- security/01-powerful-profiles.sql  (PUB400, IBM i 7.5, user without special authorities, MYLIB = DODIKIBMI2)
+
+user_name  status  user_class_name  special_authorities  group_profile_name  last_signon  text_description
+---------  ------  ---------------  -------------------  ------------------  -----------  ----------------
+(0 rows)

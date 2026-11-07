@@ -1,0 +1,7 @@
+-- security/04-adopted-authority.sql  (PUB400, IBM i 7.5, user without special authorities, MYLIB = DODIKIBMI2)
+
+program_name  object_type  program_owner  runs_as  use_adopted_authority  owner_special_authorities  public_authority
+------------  -----------  -------------  -------  ---------------------  -------------------------  ----------------
+INVPOSTMV     *PGM         DODIKIBMI      *OWNER   *YES                                              *EXCLUDE
+P_TEST_CHG    *PGM         DODIKIBMI      *OWNER   *YES                                              *EXCLUDE
+(2 rows)

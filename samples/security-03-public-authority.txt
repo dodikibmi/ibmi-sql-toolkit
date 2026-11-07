@@ -1,0 +1,10 @@
+-- security/03-public-authority.sql  (PUB400, IBM i 7.5, user without special authorities, MYLIB = DODIKIBMI2)
+
+object  object_type  public_authority  owner  authorization_list  data_update  data_delete  object_existence
+------  -----------  ----------------  -----  ------------------  -----------  -----------  ----------------
+(0 rows)
+
+public_authority  objects
+----------------  -------
+*EXCLUDE          81
+(1 rows)

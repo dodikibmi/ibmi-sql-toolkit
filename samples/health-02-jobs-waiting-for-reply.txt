@@ -1,0 +1,6 @@
+-- health/02-jobs-waiting-for-reply.sql  (PUB400, IBM i 7.5, user without special authorities, MYLIB = DODIKIBMI2)
+
+job_name               job_type  subsystem  doing  job_active_time
+---------------------  --------  ---------  -----  ---------------
+225911/QUSER/QZRCSRVS  PJ        QUSRWRK
+(1 rows)

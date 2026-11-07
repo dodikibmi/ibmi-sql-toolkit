@@ -1,0 +1,9 @@
+-- rcac/03-secure-view-alternative.sql  (PUB400, IBM i 7.5, user without special authorities, MYLIB = DODIKIBMI2)
+
+-- create or replace view ...: ok (0)
+
+customer_id  customer_name      region  phone         credit_limit
+-----------  -----------------  ------  ------------  ------------
+1            Northwind Retail   EAST    XXX-XXX-0101  25000.00
+2            Blue Harbor Foods  EAST    XXX-XXX-0102  12000.00
+(2 rows)

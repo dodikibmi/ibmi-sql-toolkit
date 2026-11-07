@@ -1,0 +1,6 @@
+-- health/01-system-overview.sql  (PUB400, IBM i 7.5, user without special authorities, MYLIB = DODIKIBMI2)
+
+host_name  total_jobs_in_system  active_jobs_in_system  cpu_pct  configured_cpus  memory_gb  asp_used_pct  asp_size_tb  temp_storage_mb
+---------  --------------------  ---------------------  -------  ---------------  ---------  ------------  -----------  ---------------
+PUB400     2037                  1171                   991.70   1                32         72.87         2.9          110087
+(1 rows)

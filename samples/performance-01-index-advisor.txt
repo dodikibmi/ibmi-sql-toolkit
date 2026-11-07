@@ -1,0 +1,7 @@
+-- performance/01-index-advisor.sql  (PUB400, IBM i 7.5, user without special authorities, MYLIB = DODIKIBMI2)
+
+table_name     key_columns_advised  index_type  times_advised  last_advised                est_create_seconds  mti_used  suggested_ddl
+-------------  -------------------  ----------  -------------  --------------------------  ------------------  --------  ------------------------------------------------
+STOCK_BALANCE  STWHS, STITEM        RADIX       5              2026-09-27 03:57:14.608752  1                   0         CREATE INDEX DODIKIBMI2.STOCK_BALANCE_IX1 ON DOD
+ITEM_MASTER    ITCATG, ITITEM       RADIX       1              2026-09-26 17:27:16.532161  1                   0         CREATE INDEX DODIKIBMI2.ITEM_MASTER_IX1 ON DODIK
+(2 rows)

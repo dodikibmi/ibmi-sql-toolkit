@@ -1,0 +1,6 @@
+-- health/04-spool-usage.sql  (PUB400, IBM i 7.5, user without special authorities, MYLIB = DODIKIBMI2)
+
+user_name  spooled_files  pages  size_mb  oldest      older_than_30_days
+---------  -------------  -----  -------  ----------  ------------------
+DODIKIBMI  238            1341   10.7     2026-09-26  57
+(1 rows)

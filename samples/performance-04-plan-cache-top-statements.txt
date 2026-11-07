@@ -1,0 +1,5 @@
+-- performance/04-plan-cache-top-statements.sql  (PUB400, IBM i 7.5, user without special authorities, MYLIB = DODIKIBMI2)
+
+-- call qsys2.dump_plan_cache_topn('DODIKIBMI2', 'PCTOP10', 10) ...: [CPF43A3] *JOBCTL special authority or QIBM_DB_SQLADM function usage is required.
+
+-- select qqjob as job, ...: [SQL0204] PCTOP10 in DODIKIBMI2 type *FILE not found.

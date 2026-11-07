@@ -1,0 +1,5 @@
+-- performance/02-tables-without-index.sql  (PUB400, IBM i 7.5, user without special authorities, MYLIB = DODIKIBMI2)
+
+table_name  table_type  number_rows  data_mb
+----------  ----------  -----------  -------
+(0 rows)

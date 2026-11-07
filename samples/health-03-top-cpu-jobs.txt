@@ -1,0 +1,8 @@
+-- health/03-top-cpu-jobs.sql  (PUB400, IBM i 7.5, user without special authorities, MYLIB = DODIKIBMI2)
+
+job_name                 job_type  job_status  subsystem  cpu_time  total_disk_io_count  temp_mb
+-----------------------  --------  ----------  ---------  --------  -------------------  -------
+346046/QUSER/QZDASOINIT  PJ        RUN         QUSRWRK    16703     680                  55
+225911/QUSER/QZRCSRVS    PJ        MSGW        QUSRWRK    31        334                  16
+348139/QUSER/QZDASOINIT  PJ        RUN         QUSRWRK    24        106                  29
+(3 rows)

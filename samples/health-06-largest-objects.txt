@@ -1,0 +1,20 @@
+-- health/06-largest-objects.sql  (PUB400, IBM i 7.5, user without special authorities, MYLIB = DODIKIBMI2)
+
+objname     objtype  objattribute  size_mb  objowner   last_used   days_used_count  objtext
+----------  -------  ------------  -------  ---------  ----------  ---------------  -------------------------------------
+INVRCV1014  *JRNRCV                7.34     DODIKIBMI              0                Inventory journal receiver
+RUTESTCASE  *SRVPGM  RPGLE         5.37     DODIKIBMI  2026-11-07  1                iRPGUnit - Test Suite Toolkit.
+RUCALLTST   *PGM     RPGLE         4.33     DODIKIBMI  2026-11-07  1                iRPGUnit - Execute Test Suite.
+RUPGMRMT    *PGM     RPGLE         4.33     DODIKIBMI              0                iRPGUnit - Execute Test Suite.
+TCRCV0001   *JRNRCV                3.31     DODIKIBMI              0
+QUNITTEST   *FILE    PF            2.56     DODIKIBMI              0                iRPGUnit - SelfTests
+RUCRTCBL    *PGM     RPGLE         2.24     DODIKIBMI              0                iRPGUnit - Create Test Suite.
+RUCRTRPG    *PGM     RPGLE         2.24     DODIKIBMI  2026-11-07  1                iRPGUnit - Create Test Suite.
+QSRC        *FILE    PF            2.17     DODIKIBMI              0                iRPGUnit - Sources
+QINCLUDE    *FILE    PF            1.55     DODIKIBMI  2026-11-07  3                iRPGUnit - Header Files
+RUMEMMGR    *SRVPGM  RPGLE         1.48     DODIKIBMI  2026-11-07  1                iRPGUnit - Memory Manager.
+ADDCOLL     *FILE    LF            1.28     DODIKIBMI              0                LF atas ADDCOLP urut nama (uji CHGPF)
+ADDCOLY     *FILE    LF            1.28     DODIKIBMI  2026-11-07  1                LF atas ADDCOLX urut nama (uji CHGPF)
+QBUILD      *FILE    PF            1.00     DODIKIBMI              0                iRPGUnit - Project Build
+QSYSINC     *FILE    PF            0.95     DODIKIBMI              0                iRPGUnit - System Header Files
+(15 rows)

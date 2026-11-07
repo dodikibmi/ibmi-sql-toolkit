@@ -1,0 +1,16 @@
+-- rcac/02-permission-and-mask.sql  (PUB400, IBM i 7.5, user without special authorities, MYLIB = DODIKIBMI2)
+
+-- create or replace permission ...: [SQL0552] Not authorized to CREATE PERMISSION.
+
+-- create or replace mask ...: [SQL0552] Not authorized to CREATE MASK.
+
+-- alter table DODIKIBMI2.tk_customer activate ...: [SQL0552] Not authorized to ALTER TABLE.
+
+customer_id  customer_name      region  phone        credit_limit
+-----------  -----------------  ------  -----------  ------------
+1            Northwind Retail   EAST    +1 555 0101  25000.00
+2            Blue Harbor Foods  EAST    +1 555 0102  12000.00
+3            Summit Hardware    WEST    +1 555 0201  40000.00
+4            Cedar Lane Books   WEST    +1 555 0202  8000.00
+5            Pioneer Tools      NORT    +1 555 0301  15000.00
+(5 rows)

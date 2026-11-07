@@ -1,0 +1,13 @@
+-- rcac/01-setup-tables.sql  (PUB400, IBM i 7.5, user without special authorities, MYLIB = DODIKIBMI2)
+
+-- create or replace table ...: ok (0)
+
+-- create or replace table ...: ok (0)
+
+-- delete from DODIKIBMI2.tk_customer ...: ok (5)
+
+-- insert into DODIKIBMI2.tk_customer values ...: ok (5)
+
+-- delete from DODIKIBMI2.tk_user_region ...: ok (1)
+
+-- insert into DODIKIBMI2.tk_user_region values ...: ok (1)

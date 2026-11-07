@@ -1,0 +1,10 @@
+-- performance/03-reorg-candidates.sql  (PUB400, IBM i 7.5, user without special authorities, MYLIB = DODIKIBMI2)
+
+table_name     member      number_rows  number_deleted_rows  deleted_pct  data_mb  last_changed
+-------------  ----------  -----------  -------------------  -----------  -------  ------------
+T_TEST_COMMIT  T_TES00001  0            1                    100.0        0.01     2026-11-07
+ARINVP0        ARINVP      13           13                   50.0         0.00     2026-11-07
+ARPAYP0        ARPAYP      8            8                    50.0         0.00     2026-11-07
+ARCUSTP0       ARCUSTP     5            5                    50.0         0.00     2026-11-07
+AR_PAYMENTS    ARPAY       5            3                    37.5         0.17     2026-11-07
+(5 rows)

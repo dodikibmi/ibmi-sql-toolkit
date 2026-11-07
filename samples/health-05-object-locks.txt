@@ -1,0 +1,8 @@
+-- health/05-object-locks.sql  (PUB400, IBM i 7.5, user without special authorities, MYLIB = DODIKIBMI2)
+
+object   object_type  member   lock_state  lock_status  lock_scope  job_name
+-------  -----------  -------  ----------  -----------  ----------  ---------------------
+ADDCOLP  *FILE                 *SHRRD      HELD         JOB         225911/QUSER/QZRCSRVS
+ADDCOLP  *FILE        ADDCOLP  *SHRRD      HELD         JOB         225911/QUSER/QZRCSRVS
+ADDCOLP  *FILE        ADDCOLP  *SHRUPD     HELD         JOB         225911/QUSER/QZRCSRVS
+(3 rows)
